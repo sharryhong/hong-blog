@@ -69,4 +69,4 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://sharryhong.github.io/hong-blog/
+  repo: https://github.com/sharryhong/hong-blog
