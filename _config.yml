@@ -7,12 +7,12 @@ title: H-web Blog
 subtitle: Front-End Development
 description:
 author: Sharry Hong
-language:
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://sharryhong.github.io/hong-blog
 root: /
 permalink: :2016/:11/:24/:H-web Blog/
 permalink_defaults:
@@ -68,4 +68,5 @@ theme: hueman
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://sharryhong.github.io/hong-blog/
