@@ -26,6 +26,9 @@
         line-height: logo-height + 10
         color: color-nav-foreground
         text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+        @media only screen and (max-width: 479px)
+            line-height: 0
+            font-size: 1rem
     .logo
         font-family: 'Indie Flower', cursive;
         color: #fff
@@ -34,3 +37,5 @@
         text-align: left
         text-decoration: none
         background: url('images/snoopy.png') 135px no-repeat
+        @media only screen and (max-width: 479px)
+            padding: 0

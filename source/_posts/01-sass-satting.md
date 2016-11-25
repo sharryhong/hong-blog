@@ -4,6 +4,9 @@ date: 2016-11-25 19:07:09
 categories: Sass
 tags: Sass, CSS
 ---
+
+{% asset_img thumb.png [sass] %}
+
 CSS Preprocessor 인 SASS. 웹 스타일링을 담당하는 CSS를 좀 더 똘똘하게 사용하고 유지보수를 좋게하는 프리프로세서입니다.
 
 ## 설치 및 Sass to CSS 
@@ -39,7 +42,7 @@ $ npm i -g node-sass (install global줄여쓴 것)
 
 예를들어 `_footer.sass`와 같이 `_`가 붙으면 병합될 파일이므로 컴파일되지 않습니다. 
 style.sass 에서 `@import /part/page/footer` 이런 식으로 @import 하여 병합시킵니다. 
-@import시 파일이름에 `_`, 파일명은 생략할 수 있습니다. 
+@import시 파일이름의 `_`, `.sass`, `.scss`는 생략할 수 있습니다. 
 
 ### Sublime Text에서 sass, scss 파일 인지시키기 
 
@@ -47,4 +50,5 @@ style.sass 에서 `@import /part/page/footer` 이런 식으로 @import 하여 �
 2. 서브라임 텍스트의 오른쪽 하단에서 sass를 선택합니다. 
 
 ##### 참고 사이트 
-[Sass-lang](http://sass-lang.com/)
+- [Sass-lang.com](http://sass-lang.com/) 
+![Sass](thumb.png)  
