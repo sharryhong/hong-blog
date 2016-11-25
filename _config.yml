@@ -4,17 +4,17 @@
 
 # Site
 title: H-web Blog 
-subtitle: Front-End Development
-description:
-author: Sharry Hong
+subtitle: Hong's Front-End Blog 
+description: Hong's Front-End Blog
+author: HS Hong
 language: en
-timezone:
+timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://sharryhong.github.io/hong-blog
-root: /hong-blog/
-permalink: :2016/:11/:24/:H-web Blog/
+url: https://sharryhong.github.io/
+root: /
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -69,4 +69,4 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/sharryhong/hong-blog
+  repo: https://github.com/sharryhong/sharryhong.github.io.git
