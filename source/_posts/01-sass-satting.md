@@ -1,11 +1,13 @@
 ---
-title: 01-sass-satting
+title: 01. SASS Satting
 date: 2016-11-25 19:07:09
-categories: Sass
-tags: Sass, CSS
+categories: [Front-End, Sass]
+tags: [Sass, CSS]
 ---
 
 {% asset_img thumb.png [sass] %}
+
+[해당 코드가 있는 Github 바로가기](https://github.com/sharryhong/FDS/tree/master/day22-sass)
 
 CSS Preprocessor 인 SASS. 웹 스타일링을 담당하는 CSS를 좀 더 똘똘하게 사용하고 유지보수를 좋게하는 프리프로세서입니다.
 
