@@ -1,5 +1,5 @@
 ---
-title: javascript class (ES5)
+title: JavaScript Class (ES5)
 date: 2016-11-26 22:18:00
 categories: [Front-End, JavaScript]
 tags: [JavaScript, Class, ES5, prototype]
@@ -7,7 +7,7 @@ tags: [JavaScript, Class, ES5, prototype]
 
 {% asset_img js.png [JavaScript] %}
 
-완전정복 스터디 3권(웹동네)으로 공부 + 코드 리펙토링 중 입니다. :) 
+완전정복 스터디 3권(웹동네)으로 공부 + 코드 리펙토링 :) 
 [해당 코드가 있는 Github 바로가기](https://github.com/sharryhong/TIL/tree/master/javaScript/02_class)
 
 ## Class 
@@ -130,86 +130,11 @@ var 인스턴스 = new 클래스이름();
 인스턴스.메서드();
 ```
 
-- 예 : [tabmenu_v02.js](https://github.com/sharryhong/TIL/blob/master/javaScript/02_class/js/tabmenu_v02.js)
-```
-// 2. 함수 단위 -> 프로토타입 방식 클래스 
-
-(function(global, $){
-'use strict';
-
-// 인스턴스 생성 	
-var tabTab1 = new TabMenu();
-var tabTab2 = new TabMenu();
-
-// 클래스 생성, 프로퍼티 생성 
-function TabMenu() {
-	this.$tab = null
-	this.$tabMenus = null;
-	this.$selectMenu = null;
-}
-// 메서드 생성, 요소 초기화  
-TabMenu.prototype.init =function(el){
-	this.$tab = $(el);
-	this.$tabMenus = this.$tab.find('li');
-	console.log(this);
-}
-
-TabMenu.prototype.initEvent = function(){
-	var objThis = this;		// 아래에 설명 추가 
-	this.$tabMenus.on("click", function(){
-		objThis.setSelectMenu($(this));
-	});
-}
-
-TabMenu.prototype.setSelectMenu = function($thisMenu){
-	if(this.$selectMenu){
-		this.$selectMenu.removeClass('select');
-	}
-	this.$selectMenu = $thisMenu;
-	this.$selectMenu.addClass('select');
-}
-
-tabTab1.init('#tabMenu1');
-tabTab1.initEvent();
-
-tabTab2.init('#tabMenu2');
-tabTab2.initEvent();
-
-})(this, this.jQuery);
-```
-
- - 클릭(이벤트) 전 `this` 는 아래처럼 구성되어 있다. (크롬 개발자도구)
-
- ```
- TabMenu
-		$selectMenu:null
-		$tab:n.fn.init[1]
-		$tabMenus:n.fn.init[6]
-		__proto__: Object
-		constructor:TabMenu()
-		init: function(el)
-		initEvent: function()
-		setSelectMenu: function($thisMenu)
-		__proto__: Object
-
- ```
-
 > **특징**
 **코드 재사용**
 모든 인스턴스는 **prototype**에 만들어져 있는 **메서드를 공유해서 사용**합니다. 
 자바스크립트에서는 prototype을 이용해 **상속을 구현**합니다. 
 
-```
-TabMenu.prototype.initEvent = function(){
-	var objThis = this;
-	this.$tabMenus.on("click", function(){
-		objThis.setSelectMenu($(this));
-	});
-}
-```
- 위 코드에서  `this.$tabMenus.on("click",...` 클릭을 하면 `this`가 **클릭한 li요소**로 되어버립니다. <br>
- 따라서 변수 objThis에 본래의 this를 저장하여 `objThis.setSelectMenu($(this));`로 사용한 것입니다. 
-
-### 연관 사이트 
-[MDN - JavaScript Class (ES6)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes)
+### 연관 링크
+[JavaScript 프로토타입 방식으로 클래스 만들기 실습 - 탭 메뉴](https://sharryhong.github.io/2016/11/28/javascript-tabmenu/)
 
