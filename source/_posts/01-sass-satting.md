@@ -12,7 +12,7 @@ tags: [Sass, CSS]
 CSS Preprocessor 인 SASS. 웹 스타일링을 담당하는 CSS를 좀 더 똘똘하게 사용하고 유지보수를 좋게하는 프리프로세서입니다.
 
 ## 설치 및 Sass to CSS 
-SASS는 Ruby 언어 기반이나 느리기 때문에 node sass로 실행합니다. 추후엔 Gulp같은 자동화툴로 관리하도록 합니다. 
+Sass to CSS를 위해 node sass를 실행합니다. 추후엔 Gulp같은 자동화툴로 관리하도록 합니다. 
 
 ### [다운로드 및 설치](https://git-scm.com)
 git bash : 터미널 방식으로 명령어를 사용하여서 Git를 컨트롤 하는 시스템
