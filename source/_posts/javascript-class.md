@@ -115,7 +115,7 @@ jQuery도 프로토타입 방식으로 만들어졌다.
 
 ```
 function 클래스이름() {
-	this.프로퍼티 = 초개 값;
+	this.프로퍼티 = 초기 값;
 	...
 }
 
@@ -136,5 +136,8 @@ var 인스턴스 = new 클래스이름();
 자바스크립트에서는 prototype을 이용해 **상속을 구현**합니다. 
 
 ### 연관 링크
-[JavaScript 프로토타입 방식으로 클래스 만들기 실습 - 탭 메뉴](https://sharryhong.github.io/2016/11/28/javascript-tabmenu/)
+[JavaScript 프로토타입 방식으로 클래스 만들기 실습 - 탭 메뉴](https://sharryhong.github.io/2016/11/28/project-javascript-tabmenu/)
+
+### 연관 포스팅
+[JavaScript ES6 문법 - class](https://sharryhong.github.io/2017/02/06/javascript-es6-class/)
 

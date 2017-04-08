@@ -1,14 +1,20 @@
 ---
 title: portfolio-sli.do 서비스 (AngularJS)
 date: 2016-12-12 20:23:57
-categories: [Portfolio]
+categories: [Portfolio, Portfolio]
 tags: [Portfolio, AngularJS, JavaScript, SASS, Gulp, sli.do]
 ---
 
-## [☆ Hong's portfolio - sli.do 바로가기](https://sharryhong.github.io/hs_slido/src)
-포트폴리오 주제 : 강의 중 실시간으로 질문, 답변을 받는 서비스 
+## [Hong's portfolio - sli.do 바로가기](https://sharryhong.github.io/hs_slido/src)
+[Github 소스 바로가기](https://github.com/sharryhong/TIL/tree/master/angularjs/hs_slido)
+
+#### 포트폴리오 주제 
+강의 중 실시간으로 질문, 답변을 받는 서비스 
 
 {% asset_img main.jpg [sli.do service] %}
+
+#### 포트폴리오 개발 기간 
+2016-11 ~ 공부하며 코드 리펙토링 중입니다.
 
 #### 특징 및 기능 
 `반응형 웹` : 데스크탑, 테블릿, 모바일에 대응하여 적절한 view를 보여줍니다. 
@@ -25,7 +31,7 @@ HTML, SASS to CSS
 Gulp
 
 #### 주제 선정 이유 
-AngularJS로 서비스를 만들어보고 싶던 중, 생활코딩 세미나에서 sli.do의 서비스를 사용하였습니다. 
+AngularJS로 서비스를 만들어보고 싶던 중, 생활코딩 세미나에서 [sli.do의 서비스](https://app.sli.do/event/qao1egje/ask)를 사용하였습니다. 
 사용이 직관적이어서 좋았고, 강의 중 질문을 바로 올리고, 나중에 강사가 모아서 대답을 할 수 있는 좋은 서비스라 생각되어 개발해보고 싶었습니다. 
 
 #### 고려사항 

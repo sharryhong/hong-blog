@@ -1,11 +1,11 @@
 ---
 title: JavaScript TabMenu (ES5_prototype class)
 date: 2016-11-28 13:16:12
-categories: [Front-End, JavaScript]
+categories: [Portfolio, Free Project]
 tags: [JavaScript, Class, ES5, prototype, TabMenu]
 ---
 
-### JavaScript 프로토타입 방식으로 클래스 만들기 실습 - 탭 메뉴
+### JavaScript 프로토타입 방식으로 클래스 만들기 - 탭 메뉴
 {% asset_img tabmenu.jpg [결과 이미지] %}
 
 [해당 코드가 있는 Github 바로가기](https://github.com/sharryhong/FDS/blob/master/day06_css/css/file-format-icons03.css) | [결과화면 보기](https://sharryhong.github.io/TIL/javaScript/02_class/tabmenu.html)

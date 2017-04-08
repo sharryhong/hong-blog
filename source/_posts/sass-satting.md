@@ -1,8 +1,8 @@
 ---
-title: 01. SASS Satting
-date: 2016-11-25 19:07:09
-categories: [Front-End, Sass]
-tags: [Sass, CSS]
+title: SASS Satting
+date: 2016-11-29 19:07:09
+categories: [Front-End, CSS/SASS]
+tags: [SASS, CSS]
 ---
 
 {% asset_img thumb.png [sass] %}

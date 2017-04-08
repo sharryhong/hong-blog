@@ -1,14 +1,13 @@
 ---
 title: CSS 속성 선택자를 활용하여 각 파일포맷별 아이콘 설정하기
-date: 2016-11-28 15:24:43
-categories: [Front-End, CSS]
+date: 2016-11-26 15:24:43
+categories: [Portfolio, Free Project]
 tags: [CSS, 선택자, 파일 포맷, 아이콘]
 ---
 
+[해당 코드가 있는 Github 바로가기](https://github.com/sharryhong/TIL/blob/master/javaScript/02_class/js/tabmenu_v02.js) | [결과화면 보기](https://sharryhong.github.io/FDS/day06_css/02-css-file-format-type03.html)
 <br>
 {% asset_img css-icons.jpg [결과 이미지] %}
-
-[해당 코드가 있는 Github 바로가기](https://github.com/sharryhong/TIL/blob/master/javaScript/02_class/js/tabmenu_v02.js) | [결과화면 보기](https://sharryhong.github.io/FDS/day06_css/02-css-file-format-type03.html)
 
 #### 속성 선택자 
 주로 특수한 상황인 요소를 찾을 때 쓰입니다. 
