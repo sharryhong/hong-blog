@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: H-web Blog 
-subtitle: Hong's Front-End Blog 
-description: Hong's Front-End Blog
+title: H-web Blog
+subtitle: Hong's Web Development Blog
+description: Hong's Web Development - Front-End & Back-End
 author: HS Hong
 language: en
 timezone: Asia/Seoul
