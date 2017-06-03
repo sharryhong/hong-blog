@@ -1,7 +1,7 @@
 ---
 title: Webpack
 date: 2016-11-30 23:34:55
-categories: [Bookmark]
+categories: [plus forWeb!, Bookmark]
 tags: [Webpack]
 ---
 

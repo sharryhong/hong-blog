@@ -1,43 +1,43 @@
 ---
-title: JavaScript BOM
+title: BOM(Brower Object Model)
 date: 2016-12-28 18:06:59
-categories: [Front-End, JavaScript]
+categories: [Front-End, DOM API]
 tags: [JavaScript, BOM]
 ---
 
-{% asset_img bom.jpg [JavaScript BOM] %}
+{% asset_img bom.jpg [BOM] %}
 
 > JavaScript를 배운다는 건...  
-core(문법), core library(기본 제공 함수 등), BOM, DOM 
-이 중 BOM에 대해 정리해보겠습니다. 
+core(문법), core library(기본 제공 함수 등), BOM, DOM
+이 중 BOM에 대해 정리해보겠습니다.
 
 ## BOM(Brower Object Model)
-웹 브라우저를 구성하는 객체들이 포함되어 있습니다. 
+웹 브라우저를 구성하는 객체들이 포함되어 있습니다.
 
-#### Window 객체 
+#### Window 객체
 Javascript 실행시 가장 상위에 존재하는 객체입니다.
 웹 페이지의 정보에 접근하거나 변경을 할 수 있습니다.
-윈도우 창을 구성하며 server-side에는 없습니다. 
-브라우저별로 문법이 다르기 때문에 크로스브라우징이 어렵습니다. 
+윈도우 창을 구성하며 server-side에는 없습니다.
+브라우저별로 문법이 다르기 때문에 크로스브라우징이 어렵습니다.
 IE9부터는 표준을 지켜서 괜찮으나 IE8은 고려해야 합니다.
 
 **Navigator**		: 브라우저 정보
 **Location**		: 주소창 부분
 **History**		: 이번보기 다음보기 등
-**Document**		: 웹 페이지 문서의 HTML, CSS 등에 대한 접근 가능. 가장 중요한 개념 
+**Document**		: 웹 페이지 문서의 HTML, CSS 등에 대한 접근 가능. 가장 중요한 개념
 **Screen** 		: 디스플레이 부분
 
-※크롬 콘솔창에 `window`라고 치면 window 객체에 내장되어 있는 프로퍼티들이 쭉 나옵니다. 
-※ `wondow.`은 생략이 가능합니다. 
+※크롬 콘솔창에 `window`라고 치면 window 객체에 내장되어 있는 프로퍼티들이 쭉 나옵니다.
+※ `wondow.`은 생략이 가능합니다.
 
 #### 주요 프로퍼티 등
 `window.devicePixelRatio` : 기기의 픽셀 농도
 `window.innerWidth` : window의 화면 가로 폭
 `window.innerHeight` : window의 화면 세로 폭
 `window.alert("Dialog 창 띄우기");` : 오늘날은 alert창 별로 쓰지 않고 console로 씁니다.
-`window.prompt('당신의 이름은?', '예) 홍길동');` : 입력창이 뜹니다. 잘 쓰지 않습니다. 
+`window.prompt('당신의 이름은?', '예) 홍길동');` : 입력창이 뜹니다. 잘 쓰지 않습니다.
 `window.confirm("당신은 청년입니까?");` : Yes, No 값을 받을 수 있습니다.
-`window.open('http://www.naver.com');` : 들어가자마자 새창이 뜹니다. 요샌 쓰지 않습니다. 
+`window.open('http://www.naver.com');` : 들어가자마자 새창이 뜹니다. 요샌 쓰지 않습니다.
 `window.scrollX` = `window.pageXOffset;` : 가로 스크롤바 위치
 `window.scrollY` =` window.pageYOffset` : 세로 스크롤바 위치 (나중에 스크롤 moving사용시 씀)
 크롬은 둘다 사용. 브라우저별로 다른 문법 사용
@@ -71,23 +71,23 @@ IE9부터는 표준을 지켜서 괜찮으나 IE8은 고려해야 합니다.
 `screen.width` : 스크린 width
 `screen.height` : 스크린 height
 `screen.availHeight` : 실제 사용가능한 height
-`screen.orientation` : 중요! 모바일 등 제어 
+`screen.orientation` : 중요! 모바일 등 제어
 ```
 // 기울기, 가로모드, onchange되면.. 설정가능
-ScreenOrientation {angle: 0, type: "landscape-primary", onchange: null}` 
+ScreenOrientation {angle: 0, type: "landscape-primary", onchange: null}`
 ```
 예 )
 ```
 screen.orientation.onchange = fnction() {
   if ( screen.orientation.type == 'landscape-primary') {
-  ... 
+  ...
   }
 }
 ```
 
 #### Navigator 객체
 
-`navigator.userAgent` : 사용자의 브라우저 식발자를 감지하여 거기에 맞는 디자인이 가능합니다. 
+`navigator.userAgent` : 사용자의 브라우저 식발자를 감지하여 거기에 맞는 디자인이 가능합니다.
 : 크롬 개발자도구의 모바일 버전으로 테스트가 가능합니다.
 "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
 `navigator.appCodeName ` : "Mozilla"
@@ -98,8 +98,8 @@ screen.orientation.onchange = fnction() {
 `navigator.onLine` : 온라인인가? true : 온라인일 때 다운받게 하기 등 가능
 `navigator.language` : 주 언어 "ko"
 
-#### Document 객체 
-웹 페이지 문서의 HTML, CSS 등에 대한 접근을 가능하게 하므로 Front-End개발에서 가장 중요한 개념입니다. 
+#### Document 객체
+웹 페이지 문서의 HTML, CSS 등에 대한 접근을 가능하게 하므로 Front-End개발에서 가장 중요한 개념입니다.
 
 `document.title` : title
 `document.doctype` : <!DOCTYPE html>
@@ -112,7 +112,7 @@ var standard_mode = document.compatMode == 'CSS1Compat';
 var html = document.documentElement;
 // 웹 표준 호환 모드라면 첫번째 코드 블록문이 실행
 if ( standard_mode ) {
-  // 변수 html에 참조된 문서 객체 <html>요소에 class 속성 값을 'standard'로 설정합니다. 
+  // 변수 html에 참조된 문서 객체 <html>요소에 class 속성 값을 'standard'로 설정합니다.
   html.setAttribute('class', 'standard');
 } else {
   html.setAttribute('class', 'nostandard');

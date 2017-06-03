@@ -1,7 +1,7 @@
 ---
 title: GitHub page로 블로그 만들기 - hexo
 date: 2017-06-03 16:15:49
-categories: [Bookmark]
+categories: [plus forWeb!, Bookmark]
 tags: [hexo]
 ---
 

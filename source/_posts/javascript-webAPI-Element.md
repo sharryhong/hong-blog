@@ -1,25 +1,25 @@
 ---
-title: JavaScript - Web API - Element
+title: Web DOM API - Element
 date: 2017-01-07 15:10:20
-categories: [Front-End, JavaScript]
+categories: [Front-End, DOM API]
 tags: [JavaScript, DOM, Web API - Element]
 ---
 
-{% asset_img dom.png [JavaScript DOM] %}
+{% asset_img dom.png [DOM] %}
 
 >  Free Project를 진행하면서 자주 사용하는 Element Web API를 계속 추가할 예정입니다. :)
 
 ## [element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
-요소의 class속성 목록을 반환합니다. 
+요소의 class속성 목록을 반환합니다.
 
-###### 브라우저 호환 : IE10이상 
+###### 브라우저 호환 : IE10이상
 
 **add** : 요소의 클래스 목록에 클래스 추가
 **remove** : 요소의 클래스 목록에서 클래스 삭제
 **toggle** : 요소의 클래스 목록에서 특정 클래스 전환
 **contains** : 요소의 클래스 목록이 특정 클래스를 포함 여부 확인
 
-**classList를 지원하는지 확인**하고 class속성에서 no-js값을 js로 변경하는 코드 
+**classList를 지원하는지 확인**하고 class속성에서 no-js값을 js로 변경하는 코드
 ```
 (function(global){
   'use strict';
