@@ -7,12 +7,13 @@ tags: [CSS, 선택자, 파일 포맷, 아이콘]
 
 [해당 코드가 있는 Github 바로가기](https://github.com/sharryhong/TIL/blob/master/javaScript/02_class/js/tabmenu_v02.js) | [결과화면 보기](https://sharryhong.github.io/FDS/day06_css/02-css-file-format-type03.html)
 <br>
-{% asset_img css-icons.jpg [결과 이미지] %}
 
-#### 속성 선택자 
-주로 특수한 상황인 요소를 찾을 때 쓰입니다. 
+![결과 이미지](/image/css-icons.jpg)
+
+#### 속성 선택자
+주로 특수한 상황인 요소를 찾을 때 쓰입니다.
 `[class="snack"]` : classname이 반드시 snack인 요소 선택
-`[class="snack seeu"]` : classname이 반드시 snack seeu인 요소 선택 
+`[class="snack seeu"]` : classname이 반드시 snack seeu인 요소 선택
 `[class*="snack"]` : classname에 snack이 있는 요소 선택
 `[class^="snack"]` : classname이 snack으로 시작하는 요소 선택  
 `a[href$=".docx"]` : href 끝나는 값이 .docx인 a요소 선택
@@ -20,14 +21,14 @@ tags: [CSS, 선택자, 파일 포맷, 아이콘]
 
 #### 핵심 코드 설명
 
-[html 파일](https://github.com/sharryhong/FDS/blob/master/day06_css/02-css-file-format-type03.html) 
+[html 파일](https://github.com/sharryhong/FDS/blob/master/day06_css/02-css-file-format-type03.html)
 
 ```
 <li class="lecture-file-item">
 	<a href="resources/file.aac">file-aac</a>
 </li>
 ```
-- 다운받을 파일명을 이용하여 background-image를 CSS에 미리 설정해 놓습니다. 
+- 다운받을 파일명을 이용하여 background-image를 CSS에 미리 설정해 놓습니다.
 
 [CSS 파일]((https://github.com/sharryhong/TIL/blob/master/javaScript/02_class/js/tabmenu_v02.js)
 ```

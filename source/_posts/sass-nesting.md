@@ -5,7 +5,7 @@ categories: [Front-End, CSS/SASS]
 tags: [SASS, Nesting]
 ---
 
-{% asset_img thumb.png [sass] %}
+![sass](/image/sass.png)
 
 [해당 코드가 있는 Github 바로가기01](https://github.com/sharryhong/TIL/tree/master/sass/01_First_Sass)
 [해당 코드가 있는 Github 바로가기02](https://github.com/sharryhong/FDS/tree/master/day22-sass)
@@ -13,8 +13,8 @@ tags: [SASS, Nesting]
 ## Nesting(중첩)
 중첩은 **반복을 제거**하고 스타일링에 **분명한 DOM관계**를 보여줌으로서 코드를 **효율적**으로 만듭니다.
 
-확장자가 SCSS, SASS 일 때 문법이 다른데, 
-SCSS파일의 경우는 기존의 CSS의 문법과 동일합니다. 
+확장자가 SCSS, SASS 일 때 문법이 다른데,
+SCSS파일의 경우는 기존의 CSS의 문법과 동일합니다.
 ```
 .parent {
   color: blue;
@@ -26,13 +26,13 @@ SCSS파일의 경우는 기존의 CSS의 문법과 동일합니다.
 
 SASS파일의 경우 `{}`를 쓰지 않고 들여쓰기로 구분합니다. `;`도 쓰지 않습니다.
 ```
-.parent 
+.parent
   color: blue
-  .child 
+  .child
     font-size: 12px
 ```
 
-위의 SCSS와 SASS의 CSS 컴파일 결과는 같습니다. 
+위의 SCSS와 SASS의 CSS 컴파일 결과는 같습니다.
 ```
 .parent {
   color: blue;
@@ -54,7 +54,7 @@ SASS파일의 경우 `{}`를 쓰지 않고 들여쓰기로 구분합니다. `;`�
 }
 ```
 
-컴파일 결과 
+컴파일 결과
 ```
 .parent {
   font-family: Roboto, sans-serif;
@@ -63,7 +63,7 @@ SASS파일의 경우 `{}`를 쓰지 않고 들여쓰기로 구분합니다. `;`�
 }
 ```
 
-#### `&` : 부모 참조 선택자. 중첩된 구조에서 사용합니다. 
+#### `&` : 부모 참조 선택자. 중첩된 구조에서 사용합니다.
 ```
 .button
   &:hover

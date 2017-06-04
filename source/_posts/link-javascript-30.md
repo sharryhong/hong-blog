@@ -6,7 +6,7 @@ tags: [javascript30.com]
 
 [javascript30.com](https://javascript30.com) | [github 소스](https://github.com/wesbos/JavaScript30)
 
-{% asset_img js.jpg [ javascript30.com ] %}
+![javascript30.com](/image/js30.jpg)
 
 > 영어로 진행하는데도 재미있게 알아들을 수 있는 신선한 라이브코딩식 강의!
 

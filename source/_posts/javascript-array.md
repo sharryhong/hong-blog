@@ -5,7 +5,7 @@ categories: [Front-End, JavaScript]
 tags: [JavaScript, Array]
 ---
 
-{% asset_img js.png [JavaScript] %}
+![JavaScript](/image/js.png)
 
 > Free Project를 진행하면서 자주 사용하는 프로퍼티, 메소드 등을 계속 추가할 예정입니다. :)
 
@@ -17,33 +17,33 @@ tags: [JavaScript, Array]
 ## [length 프로퍼티](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
 배열의 원소 개수를 나타냅니다.
 
-만약에 배열 index에 임의대로 값을 저장하면 length는 가장 큰 index를 기준으로 정해집니다. 
+만약에 배열 index에 임의대로 값을 저장하면 length는 가장 큰 index를 기준으로 정해집니다.
 ```
 var arr = []; // 변수 배열로 초기화
 console.log(arr.length); // 0
 
 arr = [2,1,2]; // arr.length = 3
-arr[100] = 5; 
-console.log(arr.length); // 101 
+arr[100] = 5;
+console.log(arr.length); // 101
 ```
 
-##### 예) DOM 요소 개수만큼 class name 추가하기 
+##### 예) DOM 요소 개수만큼 class name 추가하기
 
 [해당 Free Project 바로가기](https://sharryhong.github.io/2017/01/04/project-gallery/)
 
 ```
 // class="photo-link"인 요소들을 모두 선택합니다.
-// 이 때 변수 photoLink에 요소들이 유사배열로 저장됩니다. 
+// 이 때 변수 photoLink에 요소들이 유사배열로 저장됩니다.
 var photoLink = document.querySelectorAll('.photo-link');
 
 for(var i=0; i<photoLink.length; i++){
 
 	photoLink[i].onclick = function() {
-		// 클릭한 요소가 몇번째 index에 있는가 
+		// 클릭한 요소가 몇번째 index에 있는가
 		var idx = photoLink.indexOf(this);
-		
+
 		for(var j=0; j<photoLink.length; j++){
-			// 클릭한 요소가 아닌 모든 요소 선택 
+			// 클릭한 요소가 아닌 모든 요소 선택
 			if( j !== idx ) {
 				photoLink[j].classList.toggle("off");
 			}
@@ -66,15 +66,15 @@ for(var i=0; i<photoLink.length; i++){
 var originArray = [0,1,2,3,4,5];
 
 function removeValue(originArray, idx) {
-    // 매개변수 idx값이 몇번째 index인지 알아냅니다. 
+    // 매개변수 idx값이 몇번째 index인지 알아냅니다.
     var idx_check = originArray.indexOf(idx);
-    // 만약 -1이라면 배열에 없는 값이므로 false반환하고 끝냅니다. 
+    // 만약 -1이라면 배열에 없는 값이므로 false반환하고 끝냅니다.
     if ( idx_check === -1 ) {
         return false;
-    } 
-    // 만약 -1보다 크다면 배열에 있는 값입니다. 
+    }
+    // 만약 -1보다 크다면 배열에 있는 값입니다.
     if ( idx_check > -1 ) {
-        // splice메소드를 사용하여 해당 index로부터 1개를 삭제합니다. 
+        // splice메소드를 사용하여 해당 index로부터 1개를 삭제합니다.
         return originArray.splice(idx_check, 1);
     }
 }
@@ -97,9 +97,9 @@ array.splice(start, deleteCount[, item1[, item2[, ...]]])
 <sup>[(목차로 돌아가기)](#목차)</sup>
 
 
-### 참고 자료 
+### 참고 자료
 [Array - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 인사이드 자바스크립트 - 한빛미디어
 
-### 연관 포스팅 
+### 연관 포스팅
 [JavaScript Array - forEach, map, filter 내장 메소드](https://sharryhong.github.io/2017/02/13/javascript-array02/)

@@ -5,7 +5,7 @@ categories: [plus forWeb!, Algorism]
 tags: [JavaScript, Algorism]
 ---
 
-{% asset_img al.jpg [tryhelloworld] %}
+![tryhelloworld](/image/al.jpg)
 
 ## 알고리즘 14. 약수의 합 (JavaScript)
 
@@ -15,8 +15,8 @@ tags: [JavaScript, Algorism]
 음의 정수도 약수가 되지만 일반적으로 양의 약수만 다룹니다.
 
 #### 나의 코딩
-1) 약수는 나눠 떨어지는 정수를 구하면 됩니다. 
-for문으로 1부터 해당 값까지, % 나머지 값이 0인 값을 구하면 될 것 같습니다. 
+1) 약수는 나눠 떨어지는 정수를 구하면 됩니다.
+for문으로 1부터 해당 값까지, % 나머지 값이 0인 값을 구하면 될 것 같습니다.
 
 ```
 function sumDivisor(num) {
@@ -34,4 +34,4 @@ function sumDivisor(num) {
 console.log(sumDivisor(12));
 ```
 
-> 생각과 그대로 잘 실행이 되었습니다. ^^ 
+> 생각과 그대로 잘 실행이 되었습니다. ^^

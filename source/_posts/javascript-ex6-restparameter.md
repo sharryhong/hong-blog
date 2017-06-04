@@ -5,11 +5,11 @@ categories: [Front-End, JavaScript]
 tags: [JavaScript, ES6, rest parameter]
 ---
 
-{% asset_img js.png [JavaScript] %}
+![JavaScript](/image/es6.png)
 
 ### rest parameter(나머지 파라미터 `...`)
 
-일정하지 않은 갯수의 파라미터를 넘길 때 유용합니다. 
+일정하지 않은 갯수의 파라미터를 넘길 때 유용합니다.
 
 ```
 function addNum(...numbers) {
@@ -21,14 +21,14 @@ function addNum(...numbers) {
 addNum(1,2,3,4,5);
 ```
 
-arguments와 비교해보면 rest parameter의 장점이 드러납니다. 
+arguments와 비교해보면 rest parameter의 장점이 드러납니다.
 
 **ES5이하**
 
 ```
 function arr() {
   console.log(arguments); // 유사배열인 [1,2,3,4,5,true,null,undefined]
-  var arg = Array.prototype.slice.call(arguments, 2); 
+  var arg = Array.prototype.slice.call(arguments, 2);
   console.log(arg); // [3,4,5,true,null,undefined]
 }
 
@@ -40,7 +40,7 @@ arr(1,2,3,4,5,true,null,undefined);
 
 ```
 function arr(x , y, ...rest) {
-  console.log(rest); 
+  console.log(rest);
 }
 
 arr(1,2,3,4,5,true,null,undefined);

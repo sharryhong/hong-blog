@@ -5,7 +5,7 @@ categories: [Back-End, Database]
 tags: [Firebase, Realtime Database]
 ---
 
-{% asset_img firebase.png [Firebase] %}
+![Firebase](/image/firebase.png)
 
 ## [Firebase on the Web - Firecasts Youtube](https://www.youtube.com/playlist?list=PLl-K7zZEsYLmnJ_FpMOZgyg6XcIGBu2OX)
 

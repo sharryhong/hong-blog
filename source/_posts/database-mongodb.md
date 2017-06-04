@@ -5,7 +5,7 @@ categories: [Back-End, Database]
 tags: [MongoDB]
 ---
 
-{% asset_img logo.png [MongoDB] %}
+![MongoDB](/image/mongodb.png)
 
 > React 스터디를 진행하면서 윈도우유저들은 몽고디비를 먼저 설치해보라는 명이 떨어졌습니다. ㅋㅋ
 왜 맥에서는 쉽게 설치가 되는 것들이 윈도우에서는 약간?의 말썽이 일어나는 것일까요. 크~

@@ -5,11 +5,11 @@ categories: [Front-End, JavaScript]
 tags: [JavaScript, ES6, spread operator]
 ---
 
-{% asset_img js.png [JavaScript] %}
+![JavaScript](/image/es6.png)
 
 ### spread operator(`...`)
-copy목적으로 씁니다. 
-length를 갖고 있는, 즉 순회를 할 수 있는 대상들(배열, 문자열)에 적용가능합니다. 
+copy목적으로 씁니다.
+length를 갖고 있는, 즉 순회를 할 수 있는 대상들(배열, 문자열)에 적용가능합니다.
 
 
 ```
@@ -19,7 +19,7 @@ const userFavoriteColors =['yellow', 'orange'];
 // ES5
 defaultColors.concat(userFavoriteColors); // ["red","green","yellow","orange"]
 
-// ES6 
+// ES6
 [ ...defaultColors, ...userFavoriteColors, 'blue' ]; // ["red","green","yellow","orange","blue"]
 ```
 

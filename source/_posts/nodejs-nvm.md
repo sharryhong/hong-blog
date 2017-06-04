@@ -7,7 +7,7 @@ tags: [node.js, NVM]
 
 [Node Version Manager](https://github.com/creationix/nvm)
 
-{% asset_img nvm.jpg [ Node Version Manager ] %}
+![Node Version Manager](/image/nvm.jpg)
 
 > webpack이 자꾸 안되었던 이유가 node.js의 버전때문이었습니다. 하아 ㅜㅜ 지금이라도 알았으니 다행.. ^^
 gulp + webpack 설정으로 사용하고 싶어, 스터디 팀끼리 서로 정보 공유하며 씨름하다 결국엔 성공했습니다. ^^ 씐나씐나 ~~~

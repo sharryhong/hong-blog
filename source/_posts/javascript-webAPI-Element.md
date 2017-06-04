@@ -5,7 +5,7 @@ categories: [Front-End, DOM API]
 tags: [JavaScript, DOM, Web API - Element]
 ---
 
-{% asset_img dom.png [DOM] %}
+![DOM](/image/dom.png)
 
 >  Free Project를 진행하면서 자주 사용하는 Element Web API를 계속 추가할 예정입니다. :)
 

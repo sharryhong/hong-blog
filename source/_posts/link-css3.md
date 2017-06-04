@@ -5,7 +5,7 @@ categories: [plus forWeb!, Bookmark]
 tags: [CSS3]
 ---
 
-{% asset_img css3.jpg [ CSS3 효과 ] %}
+![CSS3 효과](/image/css3.jpg)
 
 [CSS3 효과 모음 사이트](http://james-star.com/answers/en/css3-hover-effect-transitions-transformations-and-animations/)
 

@@ -5,23 +5,23 @@ categories: [Front-End, CSS/SASS]
 tags: [SASS, Variables]
 ---
 
-{% asset_img thumb.png [sass] %}
+![sass](/image/sass.png)
 
 [해당 코드가 있는 Github 바로가기01](https://github.com/sharryhong/TIL/tree/master/sass/01_First_Sass)
 [해당 코드가 있는 Github 바로가기02](https://github.com/sharryhong/FDS/tree/master/day23-sass)
 
-CSS로 style 코드를 작성하다보면 반복사용 하는 것들을 한번에 관리하면 좋겠다는 생각을 하게 됩니다. 
+CSS로 style 코드를 작성하다보면 반복사용 하는 것들을 한번에 관리하면 좋겠다는 생각을 하게 됩니다.
 이럴 때 사용하면 좋을 문법이 sass의 **변수**입니다. 나중엔 mixin, 함수 개념등을 알면 좋은데 우선 변수만 잘 써도 일이 확 줄어드는 것을 알 수 있습니다. 조으다! ^^
 
 ## Variables (변수)
 변수는 가독성과 유지보수를 향상시켜줍니다.
 
-문법 : `$`를 붙여 변수를 만들고 값을 대입합니다. 
+문법 : `$`를 붙여 변수를 만들고 값을 대입합니다.
 ```
-// 변수 선언 
+// 변수 선언
 $translucent-white: rgba(255,255,255,0.3);
 
-// 변수 사용시 
+// 변수 사용시
 background-color: $translucent-white;
 ```
 
@@ -30,7 +30,7 @@ background-color: $translucent-white;
 변수 이름의 음절 사이에 `_` , `-` 등을 사용합니다. `_` , `-` 구별을 하지 않습니다.
 만약 프로그래밍에 익숙해서 camelCase방식이 익숙하다면 사용이 가능하지만 camelCase방식은 함수 이름에 사용되므로 권장하지는 않습니다.
 
-`!global` : 전역변수처럼 사용가능하게 합니다. 
+`!global` : 전역변수처럼 사용가능하게 합니다.
 ```
 #main {
   $width: 5em !global;
@@ -46,7 +46,7 @@ background-color: $translucent-white;
 ```
 $set-width: 900px;
 $set-width: 1000px !default
-// 의 경우 900px로 됩니다. 
+// 의 경우 900px로 됩니다.
 ```
 
 #### Data Type (데이터 유형)

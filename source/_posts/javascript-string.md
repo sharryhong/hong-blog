@@ -5,7 +5,7 @@ categories: [Front-End, JavaScript]
 tags: [JavaScript, String]
 ---
 
-{% asset_img js.png [JavaScript] %}
+![JavaScript](/image/js.png)
 
 > Free Project를 진행하면서 자주 사용하는 프로퍼티, 메소드 등을 계속 추가할 예정입니다. :)
 
@@ -17,15 +17,15 @@ tags: [JavaScript, String]
 [substring 메소드](#substring-메소드)
 
 ## [charAt 메소드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
-문자열에서 특정 위치의 문자를 구할 수 있습니다. 
+문자열에서 특정 위치의 문자를 구할 수 있습니다.
 
 ```
 str.charAt(index)
 ```
-index : 문자열의 위치 인덱스 값으로 0부터 시작 
-리턴값 : index 위치의 문자 
+index : 문자열의 위치 인덱스 값으로 0부터 시작
+리턴값 : index 위치의 문자
 
-알고리즘 코드에 올린 내용입니다. 
+알고리즘 코드에 올린 내용입니다.
 마지막 번호 4개를 제외하고 *로 보이게 하기 (핸드폰번호 가리기)
 ```
 function hide_numbers(s){
@@ -40,7 +40,7 @@ function hide_numbers(s){
 console.log("결과 : " + hide_numbers('01033334444'));
 ```
 
-문자열의 길이 s.length - 4 보다 작다면, 즉, 마지막 4개 이전의 index 값에는 *를 대입하고, 나머지는 원래의 s.charAt(i)값을 대입합니다. 
+문자열의 길이 s.length - 4 보다 작다면, 즉, 마지막 4개 이전의 index 값에는 *를 대입하고, 나머지는 원래의 s.charAt(i)값을 대입합니다.
 
 <sup>[(목차로 돌아가기)](#목차)</sup>
 
@@ -69,15 +69,15 @@ element.setAttribute('class', html_class_attr.replace(/no-js/,'js'));
 ```
 str.repeat(count)
 ```
-**count** : 0이상의 정수. 기존의 문자열을 반복할 횟수 
-리턴값 : 횟수만큼 복사를 포함하는 새 문자열 
+**count** : 0이상의 정수. 기존의 문자열을 반복할 횟수
+리턴값 : 횟수만큼 복사를 포함하는 새 문자열
 
 ```
 "abc".repeat(2); // 결과 : // "abcabc"
 ```
 
-###### 브라우저 호환 : IE, 오페라 지원안함 
-ES6에서 추가된 메소드입니다. 
+###### 브라우저 호환 : IE, 오페라 지원안함
+ES6에서 추가된 메소드입니다.
 
 <sup>[(목차로 돌아가기)](#목차)</sup>
 

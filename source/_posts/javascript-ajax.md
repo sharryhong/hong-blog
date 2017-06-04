@@ -5,7 +5,7 @@ categories: [Front-End, AJAX]
 tags: [JavaScript, AJAX, JSON]
 ---
 
-{% asset_img ajax.png [AJAX 기술] %}
+![AJAX 기술](/image/ajax.png)
 
 ## AJAX(Asynchronous Javascript And XML) 개념
 Javascript가 XML을 만나면서 비동기 통신을 한다. -> 요새는 XML보다는 JSON으로 하지만 이름은 그대로 사용하고 있다고 하네요. ^^

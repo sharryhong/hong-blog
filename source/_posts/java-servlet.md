@@ -1,5 +1,5 @@
 ---
-title: Servlet & 자바 웹 애플리케이션 구조
+title: Servlet
 date: 2017-06-03 23:19:00
 categories: [Back-End, Java]
 tags: [Servlet]
@@ -15,7 +15,8 @@ tags: [Servlet]
 이 중 서블릿(servlet)에 대해 알아보겠습니다.
 
 ### 서블릿이란?
-서버에서 실행하는 작은 프로그램 조각이라는 의미로, 동적 자원(Dynamic Resource)을 생성합니다.
+웹 애플리케이션은 한 개 이상의 서블릿으로 구성되어 있습니다.
+서블릿이란 서버에서 실행하는 작은 프로그램 조각(Server Application let(한 조각))이라는 의미로, 동적 자원(Dynamic Resource)을 생성합니다.
 
 이를 위해 **자바 웹 애플리케이션 구조**(Java Web Application Architecture)를 간단히 살펴보면,
 ![자바 웹 애플리케이션 구조 - 그림 죄송합니다 ^^;; 껄껄](/image/java-servlet-1.png)

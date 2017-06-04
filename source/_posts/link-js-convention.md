@@ -5,7 +5,7 @@ categories: [plus forWeb!, Bookmark]
 tags: [JavaScript, Convention]
 ---
 
-{% asset_img javascript-styleguides.jpg [코딩 컨벤션] %}
+![코딩 컨벤션](/image/javascript-styleguides.jpg)
 
 
 ## [NHN ent. JavaScript 코딩 컨벤션](https://github.com/nhnent/fe.javascript/wiki/%EC%BD%94%EB%94%A9-%EC%BB%A8%EB%B2%A4%EC%85%98)

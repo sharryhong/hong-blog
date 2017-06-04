@@ -8,14 +8,14 @@ tags: [Portfolio, HTML, CSS, JavaScript, jQuery]
 [Hong's portfolio - 선대인경제연구소 main 바로가기](http://sharry.dothome.co.kr/2016/hs-sdi/index.html)
 [sub page01](http://sharry.dothome.co.kr/2016/hs-sdi/introduce_01.html) | [sub page02-블로그리스트](http://sharry.dothome.co.kr/2016/hs-sdi/insights_01.html) | [sub page03-블로그내용](http://sharry.dothome.co.kr/2016/hs-sdi/insights_01_view.html)
 
-{% asset_img sdi.jpg [선대인경제연구소 사이트] %}
+![선대인경제연구소 사이트](/image/sdi.jpg)
 
-#### 포트폴리오 개발 기간 
+#### 포트폴리오 개발 기간
 2015-12
 
-#### 특징 및 기능 
+#### 특징 및 기능
 `웹표준`, `웹접근성` 준수
-크로스 브라우징 : `IE8` 이상 
+크로스 브라우징 : `IE8` 이상
 UI에 초점
 
 #### 사용 Skill

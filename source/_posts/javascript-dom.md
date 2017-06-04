@@ -5,7 +5,7 @@ categories: [Front-End, DOM API]
 tags: [JavaScript, DOM]
 ---
 
-{% asset_img dom.png [JavaScript DOM] %}
+![DOM](/image/dom.png)
 
 > JavaScript를 배운다는 건...  
 core(문법), core library(기본 제공 함수 등), BOM, DOM

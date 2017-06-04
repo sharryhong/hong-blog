@@ -5,7 +5,7 @@ categories: [Front-End, DOM API]
 tags: [JavaScript, BOM]
 ---
 
-{% asset_img bom.jpg [BOM] %}
+![BOM](/image/bom.jpg)
 
 > JavaScript를 배운다는 건...  
 core(문법), core library(기본 제공 함수 등), BOM, DOM
