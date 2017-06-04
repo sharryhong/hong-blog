@@ -2,7 +2,7 @@
 title: JDBC(Java Database Connectivity)
 date: 2017-06-04 14:29:07
 categories: [Back-End, Java]
-tags: [Servlet]
+tags: [JDBC]
 ---
 
 ![JDBC](/image/java-jdbc.png)
