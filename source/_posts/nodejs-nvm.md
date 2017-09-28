@@ -1,7 +1,7 @@
 ---
 title: NVM(Node Version Manager)으로 node.js 버전관리하기
 date: 2016-12-20 22:27:35
-categories: [Back-End, node.js]
+categories: [Back-End, Nodejs]
 tags: [node.js, NVM]
 ---
 

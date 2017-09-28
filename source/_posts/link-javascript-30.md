@@ -1,5 +1,6 @@
 ---
 title: javascript30.com 재미있는 자바스크립트 강의
+date: 2016-12-23 14:15:52
 categories: [plus forWeb!, Bookmark]
 tags: [javascript30.com]
 ---

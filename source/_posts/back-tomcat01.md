@@ -1,7 +1,7 @@
 ---
 title: Tomcat server directory (디렉토리, 폴더) 설명
 date: 2017-06-03 22:37:13
-categories: [Back-End, Server]
+categories: [Back-End, 기타]
 tags: [Tomcat, directory, folder]
 ---
 
