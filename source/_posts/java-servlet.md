@@ -1,5 +1,5 @@
 ---
-title: Servlet
+title: WAS, Servlet Container, Servlet 개념 
 date: 2017-06-03 23:19:00
 categories: [Back-End, Java]
 tags: [Servlet]
