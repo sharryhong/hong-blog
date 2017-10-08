@@ -1,9 +1,11 @@
 ---
-title: Express 모듈로 간단하게 웹 서버 만들기
+title: 01. Express 모듈로 간단하게 웹 서버 만들기
 date: 2017-09-30 17:39:35
 categories: [Back-End, Nodejs]
 tags: [node.js, express, nodemon]
 ---
+
+![Node.js](/image/nodejs.png)
 
 ## 익스프레스(Express)
 Node.js에 기본으로 있는 http모듈을 사용하면 웹 서버 기능을 담당하는 서버 객체를 만들 수 있습니다.
@@ -45,4 +47,7 @@ $npm install nodemon -g
 ```
 $nodemon app.js
 ```
-이제 app.js를 수정하면 자동으로 서버를 재실행되어 편리합니다. 
+이제 app.js를 수정하면 자동으로 서버를 재실행되어 편리합니다.
+
+**참고 자료**
+[인프런 Node.js강의](https://www.inflearn.com/course/node-js-%EC%9B%B9%EA%B0%9C%EB%B0%9C/)
