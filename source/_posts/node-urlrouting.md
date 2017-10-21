@@ -9,7 +9,7 @@ tags: [node.js, express, Routing]
 
 **[라우팅(Routing)이란?](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9A%B0%ED%8C%85)**
 네트워크 안에서 통신 데이터를 보낼 **경로**를 선택하는 과정
-
+url path에 따라서 view를 지정하는 것
 
 ### GET 요청 처리
 ```
